@@ -4,3 +4,81 @@
     box-sizing: border-box;
 }
 
+/* common */
+
+.banner{
+    color: white;
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 7px;
+}
+
+/* fine common */
+
+/* main */
+
+main .container{
+    background-color: black;
+}
+
+main .screen-black{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+main .screen-black .speaker-view{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+main .screen-black .arrow{
+    text-align: center;
+    margin: 0 20px;
+}
+
+main .screen-black .fa-caret-left,
+main .screen-black .fa-caret-right{
+    font-size: 3em;
+}
+
+main .view-cam{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    left: 50px;
+}
+
+main .view-cam .view{
+    width: calc(100% / 5 - 10px);
+    height: 140px;
+    margin: 0 5px;
+    background-size: cover;
+}
+
+main .view-cam .cam1{
+    background-image: url("../img/sedia1.png");
+}
+main .view-cam .cam2{
+    background-image: url("../img/sedia2.png");
+}
+main .view-cam .cam3{
+    background-image: url("../img/sedia3.png");
+}
+main .view-cam .cam4{
+    background-image: url("../img/sedia4.png");
+}
+main .view-cam .cam5{
+    background-image: url("../img/papera5.png");
+}
+
+/* fine main */
