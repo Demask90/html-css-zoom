@@ -52,16 +52,14 @@ main .view-cam{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top: 90px;
-    right: 50px;
-    left: 50px;
 }
 
 main .view-cam .view{
+    position: relative;
     width: calc(100% / 5 - 10px);
-    height: 140px;
-    margin: 0 5px;
+    height: calc(100% / 5 - 10px);
+    margin: 0 auto;
+    margin: 5px;
     background-size: cover;
 }
 
@@ -81,4 +79,28 @@ main .view-cam .cam5{
     background-image: url("../img/papera5.png");
 }
 
+main .view-cam .name{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 0 7px;
+    font-size: 0.8em;
+}
+
+main .view-cam .name .fa-microphone{
+    position: relative;
+    padding: 0 4px 0 2px;
+}
+
+main .view-cam .name .fa-slash{
+    position: absolute;
+    color: red;
+    bottom: 1px;
+    left: 4px;
+    padding-left: 2px;
+}
+
 /* fine main */
+
